@@ -45,6 +45,9 @@ public class BookStore {
 
 
 class Books {
+    public static void main(String[] args) {
+
+    }
 
 }
 
