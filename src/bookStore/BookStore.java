@@ -61,6 +61,11 @@ class Books {
                 String isbn = scanner.nextLine().trim();
                 books[i] = new BookStore(bookName, authorName, isbn);
             }
+            for (int i = 0; i < books.length; i++) {
+                System.out.println(books[i]);
+
+            }
+            scanner.close();
 
         }
 
