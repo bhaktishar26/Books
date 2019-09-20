@@ -29,5 +29,11 @@ public class BookStore {
         this.isbn = isbn;
     }
 
+    public String toString() {
+        return "-----------------------------\n" +
+                "Book Name:\t" + getBookName() + "\n" +
+                "AuthorName:\t" + getAuthorName() + "\n" +
+                "ISBN:\t" + getIsbn() + "\n-----------------------------";
+    }
 
 }
