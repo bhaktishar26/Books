@@ -1,5 +1,7 @@
 package bookStore;
 
+import java.util.Scanner;
+
 public class BookStore {
     private String bookName;
     private String authorName;
@@ -46,6 +48,8 @@ public class BookStore {
 
 class Books {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
 
     }
 
