@@ -49,6 +49,20 @@ public class BookStore {
 class Books {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int noOfBooks = scanner.nextInt();
+        if (noOfBooks == 0) {
+            System.out.println("N/A");
+        } else {
+            BookStore[] books = new BookStore[noOfBooks];
+            scanner.nextLine().trim();
+            for (int i = 0; i < noOfBooks; i++) {
+                String bookName = scanner.nextLine().trim();
+                String authorName = scanner.nextLine().trim();
+                String isbn = scanner.nextLine().trim();
+                books[i] = new BookStore(bookName, authorName, isbn);
+            }
+
+        }
 
 
     }
