@@ -36,4 +36,14 @@ public class BookStore {
                 "ISBN:\t" + getIsbn() + "\n-----------------------------";
     }
 
+    public BookStore(String bookName, String authorName, String isbn) {
+        this.bookName = bookName;
+        this.authorName = authorName;
+        this.isbn = isbn;
+    }
 }
+
+
+
+
+
